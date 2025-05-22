@@ -15,4 +15,12 @@
     margin-block: 1em;
     border: 5px solid blue;
   }
+
+  .like {
+    @apply border-4 border-red-500 p-4 my-4 bg-violet-300;
+  }
+}
+
+@utility shape-circle {
+  shape-outside: circle(50%);
 }

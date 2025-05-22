@@ -1,2 +1,18 @@
 @import 'tailwindcss';
-@import './common/theme.css';
+/* @import './common/theme.css'; */
+
+@theme {
+  --color-like: red;
+  --color-lion: green;
+
+  --building: url(../assets/images/building.avif);
+}
+
+@layer components {
+  .bootcamp {
+    background-color: orange;
+    padding: 1em;
+    margin-block: 1em;
+    border: 5px solid blue;
+  }
+}
